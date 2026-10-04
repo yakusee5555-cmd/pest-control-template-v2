@@ -3,7 +3,6 @@ import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { About } from "@/components/site/About";
 import { Services } from "@/components/site/Services";
-import { Estimator } from "@/components/site/Estimator";
 import { Pricing } from "@/components/site/Pricing";
 import { Reviews } from "@/components/site/Reviews";
 import { Faq } from "@/components/site/Faq";
@@ -45,7 +44,6 @@ function Home() {
         <Hero />
         <About />
         <Services />
-        <Estimator />
         <Pricing />
         <Faq />
         <WhyUs />
