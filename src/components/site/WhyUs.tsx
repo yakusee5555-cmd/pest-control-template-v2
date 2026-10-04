@@ -31,13 +31,13 @@ export function WhyUs() {
         <div className="relative">
           <img
             src={truck}
-            alt="Pest control service truck outside a home"
+            alt="Rocky Raccoon service truck outside a home"
             loading="lazy"
             className="aspect-[4/5] w-full rounded-[2rem] object-cover shadow-card"
           />
           <div className="absolute -bottom-5 right-6 rounded-2xl bg-brand p-6 text-brand-foreground shadow-card">
             <strong className="block text-4xl font-extrabold">15+</strong>
-            <span className="block text-xs font-bold">years of pest control</span>
+            <span className="block text-xs font-bold">years of wildlife removal</span>
           </div>
         </div>
         <div>
@@ -46,7 +46,7 @@ export function WhyUs() {
           </h2>
           <p className="mt-5 leading-7 text-muted-foreground">
             You'll know who's arriving, what's being done and why. We find the
-            problem, treat it right and make sure it stays gone.
+            animal, remove it humanely and make sure it stays out.
           </p>
           <div className="mt-10 grid grid-cols-2 gap-8">
             {stats.map((s) => (

@@ -6,13 +6,13 @@ const steps = [
     n: "01",
     icon: Search,
     title: "Tell Us What You're Seeing",
-    text: "Choose your pest problem and give us a few details about your property.",
+    text: "Choose your wildlife problem and give us a few details about your property.",
   },
   {
     n: "02",
     icon: ClipboardCheck,
     title: "Get The Right Service",
-    text: "We'll help match your needs with the appropriate treatment or inspection option.",
+    text: "We'll help match your needs with the appropriate removal or inspection option.",
   },
   {
     n: "03",
@@ -24,7 +24,7 @@ const steps = [
     n: "04",
     icon: ShieldCheck,
     title: "Protect Your Property",
-    text: "Get recommendations and service options designed to help keep pests from coming back.",
+    text: "Get recommendations and service options designed to help keep wildlife from coming back.",
   },
 ];
 
@@ -35,10 +35,10 @@ export function Process() {
         <div className="mx-auto max-w-3xl text-center">
           <div>
             <h2 className="section-title mt-4 text-3xl sm:text-4xl lg:text-5xl">
-              From Pest Problem To Peace Of Mind
+              From Wildlife Problem To Peace Of Mind
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-muted-foreground">
-              Getting professional pest control shouldn't be complicated. Rocky Raccoon & Possum Removal makes the
+              Getting professional wildlife removal shouldn't be complicated. Rocky Raccoon & Possum Removal makes the
               entire process simple, from choosing the right service to protecting your property.
             </p>
           </div>

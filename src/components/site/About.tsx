@@ -10,7 +10,7 @@ export function About() {
             Local Expertise. Reliable Protection. Simple Service.
           </h2>
           <p className="mt-5 max-w-xl text-muted-foreground">
-            Our team takes a practical, property-focused approach to pest control. We identify the
+            Our team takes a practical, property-focused approach to humane wildlife removal. We identify the
             problem, recommend an appropriate solution, and provide professional service designed
             around your specific needs.
           </p>
@@ -36,7 +36,7 @@ export function About() {
         <div className="overflow-hidden rounded-[2rem] shadow-card">
           <img
             src={aboutImg}
-            alt="Pest control technician treating a home baseboard"
+            alt="Wildlife removal technician inspecting a home"
             loading="lazy"
             width={1008}
             height={1104}

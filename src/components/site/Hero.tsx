@@ -23,7 +23,7 @@ export function Hero() {
       <div className="mx-auto grid min-h-[432px] max-w-7xl items-center gap-10 px-4 pb-20 pt-12 sm:px-6 md:min-h-[544px] md:pb-28 md:pt-20 lg:grid-cols-[minmax(0,1fr)_400px]">
         <div className="flex flex-col justify-center gap-8">
         <h1 className="max-w-3xl text-balance text-4xl font-extrabold leading-[.94] text-white sm:text-7xl lg:text-8xl" style={{fontFamily: '"Outfit", sans-serif'}}>
-          Pest-free home. Guaranteed.
+          Raccoons gone. Home protected. Guaranteed.
         </h1>
         <p className="-mt-4 max-w-2xl text-xl text-white/90 sm:text-2xl" style={{fontFamily: '"Outfit", sans-serif'}}>
           Same-day service. Safe for kids and pets.

@@ -39,7 +39,7 @@ export function Contact() {
       <div className="mx-auto grid max-w-7xl gap-14 px-6 md:grid-cols-2 md:gap-16">
         <div>
           <h2 className="section-title mt-4 text-3xl sm:text-4xl lg:text-5xl">
-            Ready To Take Care Of Your Pest Problem?
+            Ready To Take Care Of Your Wildlife Problem?
           </h2>
           <p className="mt-4 text-sm text-muted-foreground">
             Have a question, need an estimate, or ready to schedule a service? Reach out and our
@@ -121,7 +121,7 @@ export function Contact() {
             </dl>
 
             <p className="mt-6 text-sm leading-6 text-muted-foreground">
-              We’ll confirm the pest details, appointment window, and any preparation needed before a technician visits.
+              We’ll confirm the animal details, appointment window, and any preparation needed before a technician visits.
             </p>
             <div className="mt-7 flex flex-col gap-3 sm:flex-row">
               <Button asChild className="min-h-12 flex-1 rounded-full bg-brand text-brand-foreground hover:bg-brand/90">
@@ -168,7 +168,7 @@ export function Contact() {
               <label className="text-xs font-bold uppercase tracking-wide">Services</label>
               <Select value={service} onValueChange={setService}>
                 <SelectTrigger className="mt-2 min-h-12 w-full rounded-xl">
-                  <SelectValue placeholder="Pest Control" />
+                  <SelectValue placeholder="Wildlife Removal" />
                 </SelectTrigger>
                 <SelectContent>
                   {services.map((s) => (

@@ -1,4 +1,4 @@
-import { ArrowUpRight, Bug } from "lucide-react";
+import { ArrowUpRight, PawPrint } from "lucide-react";
 import { Link } from "@tanstack/react-router";
 import {
   Carousel,
@@ -22,8 +22,8 @@ export function Services() {
             </div>
             <div>
               <p className="text-sm text-white/75">
-                From everyday household pests to more serious infestations, Rocky Raccoon & Possum Removal provides
-                targeted solutions designed around your property and your specific pest problem.
+                From raccoons in the attic to possums under the deck, Rocky Raccoon & Possum Removal provides
+                humane solutions designed around your property and your specific wildlife problem.
               </p>
               <Link
                 to="/services"
@@ -54,7 +54,7 @@ export function Services() {
                         from {s.fromPrice}
                       </span>
                       <span className="absolute -bottom-6 left-6 grid size-12 place-items-center rounded-full bg-[#1B4332] text-brand shadow-card">
-                        <Bug className="size-5" />
+                        <PawPrint className="size-5" />
                       </span>
                     </div>
                     <div className="p-6 pt-10">

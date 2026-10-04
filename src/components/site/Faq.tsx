@@ -7,24 +7,24 @@ import {
 
 const questions = [
   {
-    question: "How quickly can you schedule a pest-control visit?",
+    question: "How quickly can you schedule a wildlife removal visit?",
     answer: "Availability varies by location and season, but we aim to offer the earliest practical appointment for your property.",
   },
   {
-    question: "Are your treatments suitable for homes with children and pets?",
-    answer: "Your technician will explain the products, preparation, and re-entry guidance for your specific service before treatment begins.",
+    question: "Are your removal methods safe for homes with children and pets?",
+    answer: "Your technician will explain the humane removal process, any preparation needed, and re-entry guidance for your specific service before work begins.",
   },
   {
-    question: "Do I need to leave my property during treatment?",
-    answer: "That depends on the pest and treatment method. We will provide clear instructions before your appointment so you can plan ahead.",
+    question: "Do I need to leave my property during the removal?",
+    answer: "That depends on the animal and the removal method. We will provide clear instructions before your appointment so you can plan ahead.",
   },
   {
     question: "What is included in the initial inspection?",
-    answer: "We inspect likely activity areas, identify visible pest signs and entry points, then recommend an appropriate service plan.",
+    answer: "We inspect likely activity areas, identify visible animal signs and entry points, then recommend an appropriate service plan.",
   },
   {
-    question: "Do recurring plans include follow-up service?",
-    answer: "Recurring plans include scheduled visits and ongoing recommendations. Exact follow-up terms are confirmed with your selected plan.",
+    question: "Do prevention plans include follow-up service?",
+    answer: "Prevention plans include scheduled visits and ongoing recommendations. Exact follow-up terms are confirmed with your selected plan.",
   },
 ];
 
